@@ -41,11 +41,11 @@ paddle_b.goto(350, 0)
 # Ball
 ball = turtle.Turtle()
 ball.speed(0)
-ball.shape("square")
+ball.shape("circle")
 ball.color("white")
 ball.penup()
 ball.goto(0, 0)
-# Every time the ball moves, it moves by two pixels. Since x is positive, it;s going to move to the right to and since y is positive, it's going to move up to so it'd be kind of moving up and diagonally 
+# Every time the ball moves, it moves by two pixels. Since x is positive, it's going to move to the right to and since y is positive, it's going to move up to so it'd be kind of moving up and diagonally 
 ball.dx = 2
 ball.dy = -2 
 
